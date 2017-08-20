@@ -338,7 +338,19 @@ namespace Nikse.SubtitleEdit.Forms
                 labelAlternateSingleLine.Visible = false;
                 labelTextAlternateLineTotal.Visible = false;
 
-                SetLanguage(Configuration.Settings.General.Language);
+                // UI thread에서 언어를 가져와서 기본 언어 세팅을 한다.
+                var language = string.Empty;
+                var settingsFileName = Configuration.SettingsFileName;
+                if (File.Exists(settingsFileName))
+                {
+                    language = Configuration.Settings.General.Language;
+                }
+                else
+                {
+                    language = System.Threading.Thread.CurrentThread.CurrentUICulture.Name;
+                }
+
+                SetLanguage(language);
                 toolStripStatusNetworking.Visible = false;
                 labelTextLineLengths.Text = string.Empty;
                 labelCharactersPerSecond.Text = string.Empty;
