@@ -322,7 +322,7 @@ namespace Nikse.SubtitleEdit.Forms
             base.OnLoad(e);
         }
 
-        public Main()
+        public Main(string subtitlePath, string videoPath, string cultureString)
         {
             if (Configuration.IsRunningOnLinux())
                 NativeMethods.setlocale(NativeMethods.LC_NUMERIC, "C");

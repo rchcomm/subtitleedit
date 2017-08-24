@@ -25,10 +25,12 @@ namespace Nikse.SubtitleEdit
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 #endif
 
-            if(args != null && args.Length == 3)
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            if (args != null && args.Length == 3)
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Main(args[0], args[1], args[2]));
+            }
         }
 
         // Handle the UI exceptions by showing a dialog box, and asking the user whether or not they wish to abort execution.
