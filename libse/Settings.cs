@@ -707,7 +707,7 @@ namespace Nikse.SubtitleEdit.Core
             AutoRepeatOn = true;
             AutoRepeatCount = 2;
             AutoContinueOn = false;
-            SyncListViewWithVideoWhilePlaying = false;
+            SyncListViewWithVideoWhilePlaying = true; 
             AutoBackupSeconds = 60 * 15;
             AutoBackupDeleteAfterMonths = 6;
             SpellChecker = "hunspell";
