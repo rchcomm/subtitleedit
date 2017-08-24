@@ -2809,6 +2809,8 @@
             // 
             this.checkBoxSyncListViewWithVideoWhilePlaying.AutoSize = true;
             this.checkBoxSyncListViewWithVideoWhilePlaying.Location = new System.Drawing.Point(558, 11);
+            this.checkBoxSyncListViewWithVideoWhilePlaying.Checked = true;
+            this.checkBoxSyncListViewWithVideoWhilePlaying.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxSyncListViewWithVideoWhilePlaying.Name = "checkBoxSyncListViewWithVideoWhilePlaying";
             this.checkBoxSyncListViewWithVideoWhilePlaying.Size = new System.Drawing.Size(207, 17);
             this.checkBoxSyncListViewWithVideoWhilePlaying.TabIndex = 1;

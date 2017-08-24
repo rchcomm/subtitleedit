@@ -659,7 +659,7 @@ namespace Nikse.SubtitleEdit.Core
             ShowToolbarHelp = true;
 
             ShowVideoPlayer = true;
-            ShowAudioVisualizer = true;
+            ShowAudioVisualizer = false;
             ShowWaveform = true;
             ShowSpectrogram = true;
             ShowFrameRate = false;
