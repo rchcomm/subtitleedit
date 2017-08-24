@@ -972,6 +972,7 @@
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.newToolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.newToolStripMenuItem.Text = "New";
+            this.newToolStripMenuItem.Visible = false;
             this.newToolStripMenuItem.Click += new System.EventHandler(this.NewToolStripMenuItemClick);
             // 
             // openToolStripMenuItem
@@ -980,6 +981,7 @@
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openToolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.Visible = false;
             this.openToolStripMenuItem.Click += new System.EventHandler(this.OpenToolStripMenuItemClick);
             // 
             // toolStripMenuItemOpenKeepVideo
@@ -994,6 +996,7 @@
             this.reopenToolStripMenuItem.Name = "reopenToolStripMenuItem";
             this.reopenToolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.reopenToolStripMenuItem.Text = "Reopen";
+            this.reopenToolStripMenuItem.Visible = false;
             // 
             // saveToolStripMenuItem
             // 
@@ -1008,6 +1011,7 @@
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.saveAsToolStripMenuItem.Text = "Save as...";
+            this.saveAsToolStripMenuItem.Visible = false;
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.SaveAsToolStripMenuItemClick);
             // 
             // toolStripMenuItemRestoreAutoBackup
@@ -1015,6 +1019,7 @@
             this.toolStripMenuItemRestoreAutoBackup.Name = "toolStripMenuItemRestoreAutoBackup";
             this.toolStripMenuItemRestoreAutoBackup.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemRestoreAutoBackup.Text = "Restore auto-backup...";
+            this.toolStripMenuItemRestoreAutoBackup.Visible = false;
             this.toolStripMenuItemRestoreAutoBackup.Click += new System.EventHandler(this.toolStripMenuItemRestoreAutoBackup_Click);
             // 
             // toolStripMenuItemDCinemaProperties
@@ -1022,6 +1027,7 @@
             this.toolStripMenuItemDCinemaProperties.Name = "toolStripMenuItemDCinemaProperties";
             this.toolStripMenuItemDCinemaProperties.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemDCinemaProperties.Text = "DCinema properties...";
+            this.toolStripMenuItemDCinemaProperties.Visible = false;
             this.toolStripMenuItemDCinemaProperties.Click += new System.EventHandler(this.toolStripMenuItemDCinemaProperties_Click);
             // 
             // toolStripMenuItemTTProperties
@@ -1029,6 +1035,7 @@
             this.toolStripMenuItemTTProperties.Name = "toolStripMenuItemTTProperties";
             this.toolStripMenuItemTTProperties.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemTTProperties.Text = "Timed Text properties...";
+            this.toolStripMenuItemTTProperties.Visible = false;
             this.toolStripMenuItemTTProperties.Click += new System.EventHandler(this.toolStripMenuItemTTPropertiesClick);
             // 
             // toolStripMenuItemNuendoProperties
@@ -1036,6 +1043,7 @@
             this.toolStripMenuItemNuendoProperties.Name = "toolStripMenuItemNuendoProperties";
             this.toolStripMenuItemNuendoProperties.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemNuendoProperties.Text = "Nuendo properties...";
+            this.toolStripMenuItemNuendoProperties.Visible = false;
             this.toolStripMenuItemNuendoProperties.Click += new System.EventHandler(this.ToolStripMenuItemNuendoPropertiesClick);
             // 
             // toolStripMenuItemFcpProperties
@@ -1043,6 +1051,7 @@
             this.toolStripMenuItemFcpProperties.Name = "toolStripMenuItemFcpProperties";
             this.toolStripMenuItemFcpProperties.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemFcpProperties.Text = "Final Cut Pro properties...";
+            this.toolStripMenuItemFcpProperties.Visible = false;
             this.toolStripMenuItemFcpProperties.Click += new System.EventHandler(this.toolStripMenuItemFcpProperties_Click);
             // 
             // toolStripMenuItemSubStationAlpha
@@ -1050,6 +1059,7 @@
             this.toolStripMenuItemSubStationAlpha.Name = "toolStripMenuItemSubStationAlpha";
             this.toolStripMenuItemSubStationAlpha.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemSubStationAlpha.Text = "Advanced Sub Station Alpha properties...";
+            this.toolStripMenuItemSubStationAlpha.Visible = false;
             this.toolStripMenuItemSubStationAlpha.Click += new System.EventHandler(this.toolStripMenuItemSubStationAlpha_Click);
             // 
             // toolStripMenuItemEbuProperties
@@ -1057,18 +1067,21 @@
             this.toolStripMenuItemEbuProperties.Name = "toolStripMenuItemEbuProperties";
             this.toolStripMenuItemEbuProperties.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemEbuProperties.Text = "Ebu properties...";
+            this.toolStripMenuItemEbuProperties.Visible = false;
             this.toolStripMenuItemEbuProperties.Click += new System.EventHandler(this.toolStripMenuItemEbuProperties_Click);
             // 
             // toolStripSeparator20
             // 
             this.toolStripSeparator20.Name = "toolStripSeparator20";
             this.toolStripSeparator20.Size = new System.Drawing.Size(334, 6);
+            this.toolStripSeparator20.Visible = false;
             // 
             // openOriginalToolStripMenuItem
             // 
             this.openOriginalToolStripMenuItem.Name = "openOriginalToolStripMenuItem";
             this.openOriginalToolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.openOriginalToolStripMenuItem.Text = "Open original (translator mode)...";
+            this.openOriginalToolStripMenuItem.Visible = false;
             this.openOriginalToolStripMenuItem.Click += new System.EventHandler(this.OpenOriginalToolStripMenuItemClick);
             // 
             // saveOriginalToolStripMenuItem
@@ -1076,6 +1089,7 @@
             this.saveOriginalToolStripMenuItem.Name = "saveOriginalToolStripMenuItem";
             this.saveOriginalToolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.saveOriginalToolStripMenuItem.Text = "Save original";
+            this.saveOriginalToolStripMenuItem.Visible = false;
             this.saveOriginalToolStripMenuItem.Click += new System.EventHandler(this.SaveOriginalToolStripMenuItemClick);
             // 
             // saveOriginalAstoolStripMenuItem
@@ -1083,6 +1097,7 @@
             this.saveOriginalAstoolStripMenuItem.Name = "saveOriginalAstoolStripMenuItem";
             this.saveOriginalAstoolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.saveOriginalAstoolStripMenuItem.Text = "Save original as...";
+            this.saveOriginalAstoolStripMenuItem.Visible = false;
             this.saveOriginalAstoolStripMenuItem.Click += new System.EventHandler(this.SaveOriginalAstoolStripMenuItemClick);
             // 
             // removeOriginalToolStripMenuItem
@@ -1090,18 +1105,21 @@
             this.removeOriginalToolStripMenuItem.Name = "removeOriginalToolStripMenuItem";
             this.removeOriginalToolStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.removeOriginalToolStripMenuItem.Text = "Remove original";
+            this.removeOriginalToolStripMenuItem.Visible = false;
             this.removeOriginalToolStripMenuItem.Click += new System.EventHandler(this.RemoveOriginalToolStripMenuItemClick);
             // 
             // toolStripSeparator12
             // 
             this.toolStripSeparator12.Name = "toolStripSeparator12";
             this.toolStripSeparator12.Size = new System.Drawing.Size(334, 6);
+            this.toolStripSeparator12.Visible = false;
             // 
             // toolStripMenuItemOpenContainingFolder
             // 
             this.toolStripMenuItemOpenContainingFolder.Name = "toolStripMenuItemOpenContainingFolder";
             this.toolStripMenuItemOpenContainingFolder.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemOpenContainingFolder.Text = "Open containing folder";
+            this.toolStripMenuItemOpenContainingFolder.Visible = false;
             this.toolStripMenuItemOpenContainingFolder.Click += new System.EventHandler(this.toolStripMenuItemOpenContainingFolder_Click);
             // 
             // toolStripMenuItemCompare
@@ -1109,6 +1127,7 @@
             this.toolStripMenuItemCompare.Name = "toolStripMenuItemCompare";
             this.toolStripMenuItemCompare.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemCompare.Text = "Compare...";
+            this.toolStripMenuItemCompare.Visible = false;
             this.toolStripMenuItemCompare.Click += new System.EventHandler(this.ToolStripMenuItemCompareClick);
             // 
             // toolStripMenuItemStatistics
@@ -1116,6 +1135,7 @@
             this.toolStripMenuItemStatistics.Name = "toolStripMenuItemStatistics";
             this.toolStripMenuItemStatistics.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemStatistics.Text = "Statistics...";
+            this.toolStripMenuItemStatistics.Visible = false;
             this.toolStripMenuItemStatistics.Click += new System.EventHandler(this.toolStripMenuItemStatistics_Click);
             // 
             // toolStripMenuItemPlugins
@@ -1123,18 +1143,21 @@
             this.toolStripMenuItemPlugins.Name = "toolStripMenuItemPlugins";
             this.toolStripMenuItemPlugins.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemPlugins.Text = "Plugins...";
+            this.toolStripMenuItemPlugins.Visible = false;
             this.toolStripMenuItemPlugins.Click += new System.EventHandler(this.toolStripMenuItemPlugins_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(334, 6);
+            this.toolStripSeparator1.Visible = false;
             // 
             // toolStripMenuItemImportDvdSubtitles
             // 
             this.toolStripMenuItemImportDvdSubtitles.Name = "toolStripMenuItemImportDvdSubtitles";
             this.toolStripMenuItemImportDvdSubtitles.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemImportDvdSubtitles.Text = "Import/OCR subtitle from VOB/IFO (DVD) ...";
+            this.toolStripMenuItemImportDvdSubtitles.Visible = false;
             this.toolStripMenuItemImportDvdSubtitles.Click += new System.EventHandler(this.ToolStripMenuItemImportDvdSubtitlesClick);
             // 
             // toolStripMenuItemSubIdx
@@ -1142,6 +1165,7 @@
             this.toolStripMenuItemSubIdx.Name = "toolStripMenuItemSubIdx";
             this.toolStripMenuItemSubIdx.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemSubIdx.Text = "Import/OCR VobSub (sub/idx) subtitle...";
+            this.toolStripMenuItemSubIdx.Visible = false;
             this.toolStripMenuItemSubIdx.Click += new System.EventHandler(this.ToolStripMenuItemSubIdxClick1);
             // 
             // toolStripMenuItemImportBluRaySup
@@ -1149,6 +1173,7 @@
             this.toolStripMenuItemImportBluRaySup.Name = "toolStripMenuItemImportBluRaySup";
             this.toolStripMenuItemImportBluRaySup.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemImportBluRaySup.Text = "Import/OCR Blu-ray sup file...";
+            this.toolStripMenuItemImportBluRaySup.Visible = false;
             this.toolStripMenuItemImportBluRaySup.Click += new System.EventHandler(this.toolStripMenuItemImportBluRaySup_Click);
             // 
             // toolStripMenuItemImportXSub
@@ -1156,6 +1181,7 @@
             this.toolStripMenuItemImportXSub.Name = "toolStripMenuItemImportXSub";
             this.toolStripMenuItemImportXSub.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemImportXSub.Text = "Import/OCR XSub from divx/avi...";
+            this.toolStripMenuItemImportXSub.Visible = false;
             this.toolStripMenuItemImportXSub.Click += new System.EventHandler(this.toolStripMenuItemImportXSub_Click);
             // 
             // toolStripMenuItemImportOcrHardSub
@@ -1163,6 +1189,7 @@
             this.toolStripMenuItemImportOcrHardSub.Name = "toolStripMenuItemImportOcrHardSub";
             this.toolStripMenuItemImportOcrHardSub.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemImportOcrHardSub.Text = "Import/OCR burned-in subtitles from video file...";
+            this.toolStripMenuItemImportOcrHardSub.Visible = false;
             this.toolStripMenuItemImportOcrHardSub.Click += new System.EventHandler(this.toolStripMenuItemImportOcrHardSub_Click);
             // 
             // matroskaImportStripMenuItem
@@ -1170,6 +1197,7 @@
             this.matroskaImportStripMenuItem.Name = "matroskaImportStripMenuItem";
             this.matroskaImportStripMenuItem.Size = new System.Drawing.Size(337, 22);
             this.matroskaImportStripMenuItem.Text = "Import subtitle from Matroska file...";
+            this.matroskaImportStripMenuItem.Visible = false;
             this.matroskaImportStripMenuItem.Click += new System.EventHandler(this.MatroskaImportStripMenuItemClick);
             // 
             // toolStripMenuItemManualAnsi
@@ -1177,6 +1205,7 @@
             this.toolStripMenuItemManualAnsi.Name = "toolStripMenuItemManualAnsi";
             this.toolStripMenuItemManualAnsi.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemManualAnsi.Text = "Import subtitle with manual chosen encoding...";
+            this.toolStripMenuItemManualAnsi.Visible = false;
             this.toolStripMenuItemManualAnsi.Click += new System.EventHandler(this.ToolStripMenuItemManualAnsiClick);
             // 
             // toolStripMenuItemImportText
@@ -1184,6 +1213,7 @@
             this.toolStripMenuItemImportText.Name = "toolStripMenuItemImportText";
             this.toolStripMenuItemImportText.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemImportText.Text = "Import text...";
+            this.toolStripMenuItemImportText.Visible = false;
             this.toolStripMenuItemImportText.Click += new System.EventHandler(this.ToolStripMenuItemImportTextClick);
             // 
             // toolStripMenuItemImportImages
@@ -1191,6 +1221,7 @@
             this.toolStripMenuItemImportImages.Name = "toolStripMenuItemImportImages";
             this.toolStripMenuItemImportImages.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemImportImages.Text = "Import images...";
+            this.toolStripMenuItemImportImages.Visible = false;
             this.toolStripMenuItemImportImages.Click += new System.EventHandler(this.toolStripMenuItemImportImages_Click);
             // 
             // toolStripMenuItemImportTimeCodes
@@ -1198,12 +1229,14 @@
             this.toolStripMenuItemImportTimeCodes.Name = "toolStripMenuItemImportTimeCodes";
             this.toolStripMenuItemImportTimeCodes.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemImportTimeCodes.Text = "Import time codes into existing subtitle...";
+            this.toolStripMenuItemImportTimeCodes.Visible = false;
             this.toolStripMenuItemImportTimeCodes.Click += new System.EventHandler(this.toolStripMenuItemImportTimeCodes_Click);
             // 
             // toolStripSeparator22
             // 
             this.toolStripSeparator22.Name = "toolStripSeparator22";
             this.toolStripSeparator22.Size = new System.Drawing.Size(334, 6);
+            this.toolStripSeparator22.Visible = false;
             // 
             // toolStripMenuItemExport
             // 
@@ -1238,6 +1271,7 @@
             this.toolStripMenuItemExport.Name = "toolStripMenuItemExport";
             this.toolStripMenuItemExport.Size = new System.Drawing.Size(337, 22);
             this.toolStripMenuItemExport.Text = "Export";
+            this.toolStripMenuItemExport.Visible = false;
             // 
             // adobeEncoreFABImageScriptToolStripMenuItem
             // 
@@ -1498,6 +1532,7 @@
             this.toolStripMenuItemInsertUnicodeCharacter.Name = "toolStripMenuItemInsertUnicodeCharacter";
             this.toolStripMenuItemInsertUnicodeCharacter.Size = new System.Drawing.Size(305, 22);
             this.toolStripMenuItemInsertUnicodeCharacter.Text = "Insert unicode character";
+            this.toolStripMenuItemInsertUnicodeCharacter.Visible = false;
             // 
             // toolStripSeparatorInsertUnicodeCharacter
             // 
@@ -1560,6 +1595,7 @@
             this.toolStripMenuItemRightToLeftMode.Name = "toolStripMenuItemRightToLeftMode";
             this.toolStripMenuItemRightToLeftMode.Size = new System.Drawing.Size(305, 22);
             this.toolStripMenuItemRightToLeftMode.Text = "Right to left mode";
+            this.toolStripMenuItemRightToLeftMode.Visible = false;
             this.toolStripMenuItemRightToLeftMode.Click += new System.EventHandler(this.ToolStripMenuItemRightToLeftModeClick);
             // 
             // toolStripMenuItemRtlUnicodeControlChars
@@ -1567,6 +1603,7 @@
             this.toolStripMenuItemRtlUnicodeControlChars.Name = "toolStripMenuItemRtlUnicodeControlChars";
             this.toolStripMenuItemRtlUnicodeControlChars.Size = new System.Drawing.Size(305, 22);
             this.toolStripMenuItemRtlUnicodeControlChars.Text = "Fix RTL via Unicode tags";
+            this.toolStripMenuItemRtlUnicodeControlChars.Visible = false;
             this.toolStripMenuItemRtlUnicodeControlChars.Click += new System.EventHandler(this.toolStripMenuItemRtlUnicodeControlChar_Click);
             // 
             // toolStripMenuItemReverseRightToLeftStartEnd
@@ -1574,6 +1611,7 @@
             this.toolStripMenuItemReverseRightToLeftStartEnd.Name = "toolStripMenuItemReverseRightToLeftStartEnd";
             this.toolStripMenuItemReverseRightToLeftStartEnd.Size = new System.Drawing.Size(305, 22);
             this.toolStripMenuItemReverseRightToLeftStartEnd.Text = "Reverse RTL start/end";
+            this.toolStripMenuItemReverseRightToLeftStartEnd.Visible = false;
             this.toolStripMenuItemReverseRightToLeftStartEnd.Click += new System.EventHandler(this.toolStripMenuItemReverseRightToLeftStartEnd_Click);
             // 
             // toolStripSeparator21
@@ -1586,6 +1624,7 @@
             this.toolStripMenuItemModifySelection.Name = "toolStripMenuItemModifySelection";
             this.toolStripMenuItemModifySelection.Size = new System.Drawing.Size(305, 22);
             this.toolStripMenuItemModifySelection.Text = "Create/modify selection...";
+            this.toolStripMenuItemModifySelection.Visible = false;
             this.toolStripMenuItemModifySelection.Click += new System.EventHandler(this.toolStripMenuItemModifySelection_Click);
             // 
             // toolStripMenuItemInverseSelection
@@ -1633,6 +1672,7 @@
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
+            this.toolsToolStripMenuItem.Visible = false;
             this.toolsToolStripMenuItem.DropDownOpening += new System.EventHandler(this.ToolsToolStripMenuItemDropDownOpening);
             // 
             // adjustDisplayTimeToolStripMenuItem
@@ -2001,6 +2041,7 @@
             this.toolStripMenuItemVideo.Name = "toolStripMenuItemVideo";
             this.toolStripMenuItemVideo.Size = new System.Drawing.Size(50, 20);
             this.toolStripMenuItemVideo.Text = "Video";
+            this.toolStripMenuItemVideo.Visible = false;
             this.toolStripMenuItemVideo.DropDownClosed += new System.EventHandler(this.ToolStripMenuItemVideoDropDownClosed);
             this.toolStripMenuItemVideo.DropDownOpening += new System.EventHandler(this.ToolStripMenuItemVideoDropDownOpening);
             // 
