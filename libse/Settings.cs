@@ -786,7 +786,7 @@ namespace Nikse.SubtitleEdit.Core
             CustomSearchText2 = "Wikipedia";
             CustomSearchUrl2 = "http://en.m.wikipedia.org/wiki?search={0}";
 
-            LastActiveTab = "Translate";
+            LastActiveTab = "Create";
             WaveformDrawGrid = true;
             WaveformAllowOverlap = false;
             WaveformBorderHitMs = 15;
