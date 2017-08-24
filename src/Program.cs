@@ -25,6 +25,7 @@ namespace Nikse.SubtitleEdit
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 #endif
 
+            if(args != null && args.Length == 3)
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main());
