@@ -24,12 +24,15 @@ namespace Nikse.SubtitleEdit
             // Add the event handler for handling non-UI thread exceptions to the event.
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 #endif
-
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
             if (args != null && args.Length == 3)
             {
-                Application.EnableVisualStyles();
-                Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new Main(args[0], args[1], args[2]));
+            }
+            else
+            {
+                Application.Run(new Main(null, null, null));
             }
         }
 

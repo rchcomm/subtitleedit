@@ -32,7 +32,7 @@
     <ErrorReport>prompt</ErrorReport>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\FFMPEG\Captura\src\AYoutuber\SubTitleEdit\</OutputPath>
+    <OutputPath>..\..\Captura\src\AYoutuber\SubTitleEdit\</OutputPath>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <WarningLevel>4</WarningLevel>
