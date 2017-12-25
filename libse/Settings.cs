@@ -731,7 +731,7 @@ namespace Nikse.SubtitleEdit.Core
             DisableVideoAutoLoading = false;
             RightToLeftMode = false;
             LastSaveAsFormat = string.Empty;
-            CheckForUpdates = true;
+            CheckForUpdates = false;
             LastCheckForUpdates = DateTime.Now;
             ShowProgress = false;
             ShowBetaStuff = false;
