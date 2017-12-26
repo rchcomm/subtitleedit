@@ -1857,6 +1857,23 @@ namespace Nikse.SubtitleEdit.Forms
 
         private void OpenSubtitle(string fileName, Encoding encoding, string videoFileName, string originalFileName)
         {
+            var fileNameExt = Path.GetExtension(fileName).ToLower();
+            if (!new[] { ".srt", ".smi" }.Any(ext => ext == fileNameExt))       //!fileNameExt.Equals(".srt", StringComparison.InvariantCultureIgnoreCase) &&
+            {
+                // 빈 자막 만들기
+                var subtitleFileName = Path.Combine(Path.GetDirectoryName(fileName), Path.GetFileNameWithoutExtension(fileName) + ".srt");
+                if (!File.Exists(subtitleFileName))
+                {
+                    using (var sw = File.CreateText(subtitleFileName))
+                    {
+                        sw.WriteLine("1");
+                        sw.WriteLine("00:00:00,000 --> 00:00:01,000");
+                    }
+                }
+
+                fileName = subtitleFileName;
+            }
+
             if (File.Exists(fileName))
             {
                 bool videoFileLoaded = false;

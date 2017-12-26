@@ -674,7 +674,7 @@ namespace Nikse.SubtitleEdit.Core
             SubtitleFontColor = Color.Black;
             SubtitleBackgroundColor = Color.White;
             CenterSubtitleInTextBox = false;
-            DefaultSubtitleFormat = "SAMI";
+            DefaultSubtitleFormat = "SubRip";
             DefaultEncoding = Encoding.UTF8.WebName;
             AutoConvertToUtf8 = false;
             WriteUtf8Bom = true;
